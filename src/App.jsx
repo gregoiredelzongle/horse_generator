@@ -51,14 +51,26 @@ function App() {
       <div className="container">
         {gameState === 'welcome' && (
           <div className="welcome-screen">
-            <h1 className="main-title">Welcome to 2026</h1>
-            <h2 className="subtitle">The Year of the Horse</h2>
+            <div className="welcome-image-placeholder">
+              <img 
+                src="images/welcome.jpg" 
+                alt="Welcome"
+                className="welcome-image"
+                onError={(e) => {
+                  e.target.style.display = 'none';
+                  e.target.nextSibling.style.display = 'block';
+                }}
+              />
+              <div className="welcome-placeholder-text">Image placeholder</div>
+            </div>
+            <h1 className="main-title">Bienvenue en 2026</h1>
+            <h2 className="subtitle">L'Année du Cheval</h2>
             <p className="welcome-text">
-              Discover your horse personality! Answer a few questions and find out which magnificent 
-              horse spirit matches your soul as we gallop into the new year.
+              Découvre ta personnalité de cheval ! Réponds à quelques questions et découvre quel 
+              magnifique esprit équin correspond à ton âme alors que nous galopons vers la nouvelle année.
             </p>
             <button className="start-button" onClick={startQuiz}>
-              Start the Quiz
+              Commencer le Quiz
             </button>
           </div>
         )}

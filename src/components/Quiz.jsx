@@ -15,7 +15,7 @@ function Quiz({ question, questionNumber, totalQuestions, onAnswer }) {
       </div>
       
       <div className="question-counter">
-        Question {questionNumber} of {totalQuestions}
+        Question {questionNumber} sur {totalQuestions}
       </div>
 
       <h2 className="question-text">{question.question}</h2>

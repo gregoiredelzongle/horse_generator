@@ -2,49 +2,49 @@
   "horses": [
     {
       "id": "wild_stallion",
-      "name": "The Wild Stallion",
-      "description": "Free-spirited and adventurous, you gallop to your own beat! You're independent, passionate, and always seeking new horizons. Nothing can fence you in!",
-      "traits": ["adventurous", "independent", "passionate", "spontaneous"],
+      "name": "L'Étalon Sauvage",
+      "description": "Libre et aventureux, tu galopes à ton propre rythme ! Tu es indépendant, passionné, et toujours en quête de nouveaux horizons. Rien ne peut t'enfermer !",
+      "traits": ["aventureux", "indépendant", "passionné", "spontané"],
       "image": "images/wild_stallion.jpg",
       "color": "#D4AF37"
     },
     {
       "id": "noble_mare",
-      "name": "The Noble Mare",
-      "description": "Graceful and dignified, you carry yourself with elegance. You're loyal, caring, and have a natural ability to lead with compassion.",
-      "traits": ["elegant", "loyal", "compassionate", "wise"],
+      "name": "La Jument Noble",
+      "description": "Gracieuse et digne, tu te portes avec élégance. Tu es loyal, bienveillant, et tu as une capacité naturelle à diriger avec compassion.",
+      "traits": ["élégant", "loyal", "compatissant", "sage"],
       "image": "images/noble_mare.jpg",
       "color": "#8B4789"
     },
     {
       "id": "racing_champion",
-      "name": "The Racing Champion",
-      "description": "Fast, competitive, and driven! You thrive on challenges and never back down. You're focused, determined, and always pushing for excellence.",
-      "traits": ["competitive", "driven", "focused", "energetic"],
+      "name": "Le Champion de Course",
+      "description": "Rapide, compétitif et déterminé ! Tu adores les défis et tu ne recules jamais. Tu es concentré, résolu, et toujours en quête d'excellence.",
+      "traits": ["compétitif", "déterminé", "concentré", "énergique"],
       "image": "images/racing_champion.jpg",
       "color": "#E74C3C"
     },
     {
       "id": "gentle_pony",
-      "name": "The Gentle Pony",
-      "description": "Kind-hearted and approachable, you bring joy wherever you go. You're friendly, optimistic, and have a gift for making others smile.",
-      "traits": ["friendly", "optimistic", "cheerful", "sociable"],
+      "name": "Le Poney Doux",
+      "description": "Au grand cœur et accessible, tu apportes de la joie partout où tu vas. Tu es amical, optimiste, et tu as le don de faire sourire les autres.",
+      "traits": ["amical", "optimiste", "joyeux", "sociable"],
       "image": "images/gentle_pony.jpg",
       "color": "#F39C12"
     },
     {
       "id": "mystical_unicorn",
-      "name": "The Mystical Unicorn",
-      "description": "Creative and magical, you see the world through a unique lens. You're imaginative, artistic, and bring wonder to everyday life.",
-      "traits": ["creative", "imaginative", "artistic", "dreamer"],
+      "name": "La Licorne Mystique",
+      "description": "Créatif et magique, tu vois le monde à travers un prisme unique. Tu es imaginatif, artistique, et tu apportes de l'émerveillement au quotidien.",
+      "traits": ["créatif", "imaginatif", "artistique", "rêveur"],
       "image": "images/mystical_unicorn.jpg",
       "color": "#9B59B6"
     },
     {
       "id": "work_horse",
-      "name": "The Reliable Work Horse",
-      "description": "Steady, dependable, and strong. You're the rock everyone counts on. You're practical, dedicated, and find satisfaction in a job well done.",
-      "traits": ["reliable", "practical", "dedicated", "hardworking"],
+      "name": "Le Cheval de Travail Fiable",
+      "description": "Stable, fiable et fort. Tu es le roc sur lequel tout le monde compte. Tu es pragmatique, dévoué, et tu trouves satisfaction dans le travail bien fait.",
+      "traits": ["fiable", "pragmatique", "dévoué", "travailleur"],
       "image": "images/work_horse.jpg",
       "color": "#7D6348"
     }
@@ -52,7 +52,7 @@
   "questions": [
     {
       "id": 1,
-      "question": "It's New Year's Eve! How do you prefer to celebrate?",
+      "question": "C'est le nouvel an ! Comment-va tu te régaler ?",
       "answers": [
         {
           "text": "At a wild party with loud music and dancing!",
@@ -90,7 +90,7 @@
     },
     {
       "id": 2,
-      "question": "What's your ideal way to spend a free afternoon?",
+      "question": "Quelle est ta façon idéale de passer un après-midi libre ?",
       "answers": [
         {
           "text": "Exploring somewhere new and spontaneous",
@@ -101,7 +101,7 @@
           }
         },
         {
-          "text": "Reading a good book in a cozy spot",
+          "text": "Lire un bon livre dans un endroit confortable",
           "image": "images/answers/reading.jpg",
           "scores": {
             "noble_mare": 2,
@@ -109,7 +109,7 @@
           }
         },
         {
-          "text": "Working on a productive project",
+          "text": "Travailler sur un projet productif",
           "image": "images/answers/productive.jpg",
           "scores": {
             "work_horse": 3,
@@ -117,7 +117,7 @@
           }
         },
         {
-          "text": "Hanging out with friends and having fun",
+          "text": "Traîner avec des amis et s'amuser",
           "image": "images/answers/friends.jpg",
           "scores": {
             "gentle_pony": 3,
@@ -128,10 +128,10 @@
     },
     {
       "id": 3,
-      "question": "Which word best describes your approach to challenges?",
+      "question": "Quel mot décrit le mieux ton approche face aux défis ?",
       "answers": [
         {
-          "text": "Fearless - I charge ahead!",
+          "text": "Intrépide - Je fonce !",
           "image": "images/answers/fearless.jpg",
           "scores": {
             "wild_stallion": 3,
@@ -139,7 +139,7 @@
           }
         },
         {
-          "text": "Strategic - I plan carefully",
+          "text": "Stratégique - Je planifie soigneusement",
           "image": "images/answers/strategic.jpg",
           "scores": {
             "noble_mare": 3,
@@ -147,14 +147,14 @@
           }
         },
         {
-          "text": "Competitive - I must win!",
+          "text": "Compétitif - Je dois gagner !",
           "image": "images/answers/competitive.jpg",
           "scores": {
             "racing_champion": 3
           }
         },
         {
-          "text": "Creative - I find unique solutions",
+          "text": "Créatif - Je trouve des solutions uniques",
           "image": "images/answers/creative_solutions.jpg",
           "scores": {
             "mystical_unicorn": 3,
@@ -165,10 +165,10 @@
     },
     {
       "id": 4,
-      "question": "What's your dream vacation destination?",
+      "question": "Quelle est ta destination de vacances de rêve ?",
       "answers": [
         {
-          "text": "Wild camping in untamed nature",
+          "text": "Camping sauvage en pleine nature",
           "image": "images/answers/camping.jpg",
           "scores": {
             "wild_stallion": 3,
@@ -176,14 +176,14 @@
           }
         },
         {
-          "text": "A luxurious spa retreat",
+          "text": "Un spa luxueux et relaxant",
           "image": "images/answers/spa.jpg",
           "scores": {
             "noble_mare": 3
           }
         },
         {
-          "text": "An adrenaline-packed adventure destination",
+          "text": "Une destination d'aventure pleine d'adrénaline",
           "image": "images/answers/adventure.jpg",
           "scores": {
             "racing_champion": 3,
@@ -191,7 +191,7 @@
           }
         },
         {
-          "text": "A magical, fairy-tale location",
+          "text": "Un lieu magique et féerique",
           "image": "images/answers/fairytale.jpg",
           "scores": {
             "mystical_unicorn": 3,
@@ -202,31 +202,31 @@
     },
     {
       "id": 5,
-      "question": "How do your friends describe you?",
+      "question": "Comment tes amis te décrivent-ils ?",
       "answers": [
         {
-          "text": "The unpredictable adventurer",
+          "text": "L'aventurier imprévisible",
           "image": "images/answers/adventurer.jpg",
           "scores": {
             "wild_stallion": 3
           }
         },
         {
-          "text": "The wise and graceful one",
+          "text": "La personne sage et gracieuse",
           "image": "images/answers/wise.jpg",
           "scores": {
             "noble_mare": 3
           }
         },
         {
-          "text": "The ambitious go-getter",
+          "text": "L'ambitieux qui fonce",
           "image": "images/answers/ambitious.jpg",
           "scores": {
             "racing_champion": 3
           }
         },
         {
-          "text": "The sunshine friend who lifts everyone's mood",
+          "text": "L'ami rayon de soleil qui remonte le moral",
           "image": "images/answers/sunshine.jpg",
           "scores": {
             "gentle_pony": 3,
